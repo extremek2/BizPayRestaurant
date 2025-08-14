@@ -7,7 +7,9 @@ class Store(models.Model):
     store_phone = models.CharField(max_length=100)
     store_email = models.CharField(max_length=100)
     store_website = models.CharField(max_length=100)
-    stor_lat = models.FloatField()
-    stor_lon = models.FloatField()
+    store_lat = models.FloatField()
+    store_lon = models.FloatField()
 
-# Create your models here.
+# 참고 사항
+# lat: y
+# lon: x
